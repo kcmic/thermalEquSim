@@ -1,0 +1,39 @@
+#formulaImgCol{
+	height: 100px;
+	overflow: hidden;
+}
+
+
+.square{
+	height: 100px;
+	width: 100px;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}
+
+#squareRow{
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}
+
+#controlPanel div[class^="row"] {
+	padding : 10px;
+}
+
+/*#rowMA, #rowMB, #rowSHCA, #rowSHCB{
+	display: none;
+}*/
+
+h1{
+	padding-bottom: 10px;
+}
+
+#squareA{
+	background-color: rgb(219, 64, 82);
+}
+
+#squareB{
+	background-color: rgb(55, 128, 191);
+}
